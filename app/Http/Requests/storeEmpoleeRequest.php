@@ -26,7 +26,7 @@ class storeEmpoleeRequest extends FormRequest
             'name' =>'required|string',
             'age' =>'nullable|',
             'salary' =>'nullable|',
-            'email' => 'required|email|unique:users,email'
+            'email' => 'required|email|unique:employees,email'
         ];
     }
 }
